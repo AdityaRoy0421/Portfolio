@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyBlends | The Blender's Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo"><i class="fa-solid fa-cube"></i> RoyBlends</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>The Blender's Canvas</h1>
+            <p>Discover a curated collection of stunning 3D projects and assets created with Blender.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore Projects <i class="fas fa-arrow-down"></i></a>
+                <a href="#contact" class="hero-link-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <p class="subtitle">Browse through different categories of my work.</p>
+            <div class="category-block"><h3>Environments</h3><div class="project-grid" id="environments-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+            <div class="category-block"><h3>Real Estate</h3><div class="project-grid" id="realestate-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+            <div class="category-block"><h3>Characters and NPCs</h3><div class="project-grid" id="characters-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+            <div class="category-block"><h3>Abstract</h3><div class="project-grid" id="abstract-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+            <div class="category-block"><h3>Single Assets</h3><div class="project-grid" id="assets-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+            <div class="category-block"><h3>Anime Style</h3><div class="project-grid" id="anime-projects"></div><div class="view-more-container"><a href="#" class="btn-view-more" style="display: none;">View More <i class="fas fa-chevron-down"></i></a></div></div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="Resources/profile-image.jpeg" alt="Aditya Raj Chaudhary - Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h3>Aditya Raj Chaudhary</h3>
+                    <p class="about-subtitle">3D Artist & Blender Enthusiast</p>
+                    <p>Hello! I'm Aditya aka Roy, a passionate 3D artist enthusiast working in Blender and a 3rd Year student at IISER Pune. Although I have not done a formal course in 3d Art or animation, I am building and learning on my own. With roughly 4 years of experience, I've worked on a diverse range of projects from character modelling and animation to architectural visualization and game assets. I thrive on bringing creative visions to life and continuously exploring new techniques in the ever-evolving world of 3D. I also work on scientific models and bring concepts to life.</p>
+                    <p>My goal is to create compelling and high-quality 3D content that tells a story and captivates the audience. Contact me for any query or collaboration.</p>
+                    <div class="about-social-icons">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityaroy0421@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/adityarc1203/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/roy_blends?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Connect With Me</h2>
+            <p class="subtitle">Feel free to reach out on any of these platforms, or send me an email!</p>
+            <div class="contact-social-icons">
+                <a href="https://www.youtube.com/@Roy_Blends" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="contact-social-link">
+                    <i class="fab fa-youtube"></i> YouTube
+                </a>
+                <a href="https://in.pinterest.com/adityaroy0421" target="_blank" rel="noopener noreferrer" aria-label="Pinterest" class="contact-social-link">
+                    <i class="fab fa-pinterest"></i> Pinterest
+                </a>
+                <a href="https://www.instagram.com/roy_blends?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="contact-social-link">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/adityarc1203/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="contact-social-link">
+                    <i class="fab fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adityaroy0421@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" class="contact-social-link">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 RoyBlends | The Blender's Canvas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Structure (Initially Hidden) -->
+    <div id="lightbox-overlay">
+        <span id="lightbox-close">×</span>
+        <img src="" alt="Project Image" id="lightbox-image">
+        <button id="lightbox-back-button">Back to Page</button>
+    </div>
+
+    <!-- ====== START OF SCRIPT ====== -->
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('header nav a[href^="#"], .hero-buttons a[href="#contact"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerOffset = document.querySelector('header').offsetHeight || 70;
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+                    const offsetPosition = elementPosition - headerOffset;
+                    window.scrollTo({
+                         top: offsetPosition,
+                         behavior: "smooth"
+                    });
+                }
+            });
+        });
+
+        // Active link highlighting based on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLi = document.querySelectorAll('header nav ul li a');
+        window.addEventListener('scroll', () => {
+            let current = 'home';
+            const headerHeight = document.querySelector('header').offsetHeight || 70;
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - headerHeight - 50;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+            navLi.forEach(a => {
+                a.classList.remove('active');
+                if (a.getAttribute('href').substring(1) === current) {
+                    a.classList.add('active');
+                }
+            });
+            if (pageYOffset < (sections[0].offsetTop - headerHeight - 50) ) {
+                 document.querySelector('header nav ul li a[href="#home"]').classList.add('active');
+            }
+        });
+
+        // -------- START OF PROJECT DATA AND RENDERING SCRIPT --------
+        const projectsDataByCategory = {
+            "environments-projects": [
+                { imagePath: "Resources/Projects/Ispiration project.png", title: "Midnight Crossing" },
+                { imagePath: "Resources/Projects/Final scene .png", title: "Neon Night" },
+                { imagePath: "Resources/Projects/Almost final classroom.png", title: "After Bell" },
+                { imagePath: "Resources/Projects/Inspiration day scene.png", title: "Afternoon Cross" },
+                { imagePath: "Resources/Projects/Ravein_1.png", title: "Ravein" },
+            ],
+            "realestate-projects": [],
+            "characters-projects": [
+                { imagePath: "Resources/Projects/Jerry 1.2.png", title: "Jerry" },
+                { imagePath: "Resources/Projects/character1_head_1.1.png", title: "Jerry Head" },
+                { imagePath: "Resources/Projects/good char sample 1.png", title: "Skater's Club" },
+            ],
+            "abstract-projects": [
+                { imagePath: "Resources/Projects/Abstract 1.png", title: "Dream" },
+                { imagePath: "Resources/Projects/Abstract 2.png", title: "Shine Bright" },
+            ],
+            "assets-projects": [
+                { imagePath: "Resources/Projects/Tutorial chair.png", title: "Chair" },
+            ],
+            "anime-projects": []
+        };
+
+        function createProjectCardHTML(project) {
+            return `
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="${project.imagePath}" alt="${project.title}" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h4>${project.title}</h4>
+                        <a href="#" class="btn-view-project">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            `;
+        }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const projectsToShowInitially = 2;
+
+            // --- Lightbox Element References ---
+            const lightboxOverlay = document.getElementById('lightbox-overlay');
+            const lightboxImage = document.getElementById('lightbox-image');
+            const lightboxCloseBtn = document.getElementById('lightbox-close');
+            const lightboxBackBtn = document.getElementById('lightbox-back-button');
+            function openLightbox(imageSrc, imageAlt) { if (lightboxOverlay && lightboxImage) { lightboxImage.src = imageSrc; lightboxImage.alt = imageAlt; lightboxOverlay.classList.add('lightbox-active'); } }
+            function closeLightbox() { if (lightboxOverlay) { lightboxOverlay.classList.remove('lightbox-active'); } }
+            if (lightboxCloseBtn) lightboxCloseBtn.addEventListener('click', closeLightbox);
+            if (lightboxBackBtn) lightboxBackBtn.addEventListener('click', closeLightbox);
+            if (lightboxOverlay) { lightboxOverlay.addEventListener('click', (event) => { if (event.target === lightboxOverlay || event.target === lightboxCloseBtn || event.target === lightboxBackBtn ) { closeLightbox(); } }); }
+            
+            // --- Email Popup Logic REMOVED ---
+
+            // --- Testimonials Logic REMOVED ---
+
+            // --- Project Rendering and View More/Less Logic ---
+            for (const categoryId in projectsDataByCategory) {
+                const categoryGridElement = document.getElementById(categoryId);
+                if (!categoryGridElement) { console.warn(`Grid container '${categoryId}' not found.`); continue; }
+                const categoryBlock = categoryGridElement.closest('.category-block');
+                if (!categoryBlock) { console.warn(`Category block for grid '${categoryId}' not found.`); continue; }
+                const viewMoreButton = categoryBlock.querySelector('.btn-view-more');
+                const projects = projectsDataByCategory[categoryId];
+                
+                if (projects.length === 0) {
+                    categoryGridElement.innerHTML = '<p class="no-content-message">No content has been added yet</p>';
+                    if (viewMoreButton) viewMoreButton.style.display = 'none';
+                } else {
+                    let htmlToInsert = '';
+                    projects.forEach(project => { htmlToInsert += createProjectCardHTML(project); });
+                    categoryGridElement.innerHTML = htmlToInsert;
+                    const projectCards = categoryGridElement.querySelectorAll('.project-card');
+                    categoryGridElement.addEventListener('click', (event) => {
+                         const viewButton = event.target.closest('.btn-view-project');
+                         if (viewButton) {
+                             event.preventDefault();
+                             const card = viewButton.closest('.project-card');
+                             if (card) {
+                                 const imageElement = card.querySelector('.project-image img');
+                                 if (imageElement) { openLightbox(imageElement.src, imageElement.alt); }
+                             }
+                         }
+                    });
+                    projectCards.forEach((card, index) => { if (index >= projectsToShowInitially) card.classList.add('project-hidden'); });
+                    if (viewMoreButton) {
+                        if (projects.length > projectsToShowInitially) {
+                            viewMoreButton.style.display = 'inline-block';
+                            viewMoreButton.innerHTML = 'View More <i class="fas fa-chevron-down"></i>';
+                            viewMoreButton.dataset.state = 'more';
+                        } else {
+                            viewMoreButton.style.display = 'none';
+                        }
+                        if (!viewMoreButton.dataset.listenerAttached) {
+                            viewMoreButton.addEventListener('click', function(event) {
+                                event.preventDefault();
+                                const currentState = this.dataset.state;
+                                const cardsInThisGrid = categoryGridElement.querySelectorAll('.project-card');
+                                cardsInThisGrid.forEach((card, index) => { if (index >= projectsToShowInitially) card.classList.toggle('project-hidden', currentState !== 'more'); });
+                                this.innerHTML = currentState === 'more' ? 'View Less <i class="fas fa-chevron-up"></i>' : 'View More <i class="fas fa-chevron-down"></i>';
+                                this.dataset.state = currentState === 'more' ? 'less' : 'more';
+                            });
+                            viewMoreButton.dataset.listenerAttached = 'true';
+                        }
+                    } else if (projects.length > projectsToShowInitially) { console.warn(`View More button missing for category '${categoryId}' which has ${projects.length} projects.`); }
+                } 
+            } 
+        }); 
+        // -------- END OF PROJECT DATA AND RENDERING SCRIPT --------
+    </script>
+    <!-- ====== END OF SCRIPT ====== -->
+</body>
+</html>
